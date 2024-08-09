@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(24, 24, 48);
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(7, 7, 41);
+    padding: 20px 80px;
+}
+header h2{
+    color: white;
+}
+#name{
+    color: rgb(194, 34, 61);
+}
+nav a{
+    text-decoration: none;
+    padding-right: 15px;
+    color: white;
+}
+nav a:hover{
+    color: rgb(194, 34, 61);
+}
+.links{
+    position: absolute;
+    top: 22px;
+    right: 16px;
+    font-weight: 50;
+    margin-right: 30px;
+}
+.content{
+    /* border: 2px solid black; */
+    margin-top: 125px;
+    margin-right: 600px;
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+.content h1{
+    color: white;
+    font-family:sans-serif;
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+.content h2{
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+}
+.content button{
+    width: 150px;
+    height: 45px;
+    background-color: rgb(194, 34, 61);
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+.content a{
+    text-decoration: none;
+}
+.page_navigator{
+    display: flex;
+    /* border: 2px solid peru; */
+}
+#Services {
+    padding: 20px 80px;
+    color: white;
+}
+#Services h1{
+    color: rgb(194, 34, 61);
+}
+.flex-container{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-container1{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-box{
+    width:200px;
+    height: 160px;
+    background:rgb(7, 7, 41);
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    /* border: 2px solid peru; */
+}
+.flex-box img{
+    height: 40px;
+    padding-bottom: 10px;
+}
+.flex-box h5{
+    font-weight: 80;
+}
+.context{
+    /* border: 2px solid peru; */
+    padding:8px;
+    margin-top: 80px; 
+    /* remove when putting icon the margin top */
+}
+#contact{
+    padding: 20px 80px;
+}
+#contact h1{
+    color:rgb(194, 34, 61);
+}
+#contact form{
+    margin-left: 50px;
+    color:rgb(7, 7, 41);
+}
+#contact input{
+    background-color:rgb(7, 7, 41);
+    border: 0;
+    height: 40px;
+    width: 450px;
+    color: white;
+    font-size: 25px;
+}
+#contact button{
+    width: 150px;
+    height: 45px;
+    background-color: rgb(194, 34, 61);
+    color:black;
+    border: 0;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 300px; 
+}
